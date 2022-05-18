@@ -1,0 +1,469 @@
+body {
+  height: 125vh;
+  background-image: url("watercolor.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+
+header img {
+  height: 70px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1600px;
+        height: 2200px;
+}
+
+
+header {
+  background-color:#F0EAD6;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  box-shadow: 0 0 30px 0 black;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 150%;
+  z-index:1;
+}
+
+header * {
+  display: inline-block;
+}
+
+header li {
+  margin-right: 15px;
+}
+
+nav ul li:nth-child(-n+4) {float: left; }
+
+nav ul li {float: right;}
+
+header a {
+  text-decoration: none;
+}
+
+header li a {
+  color: #02111B;
+  text-decoration: none;
+  transition: 0.5s ease;
+  text-shadow: 0 0 8px transparent;
+  color: #02111B;
+  text-decoration: none;
+}
+
+header li a:hover {
+  text-shadow: 0 0 8px #048A81;
+  transition: 0.5s ease;
+}
+
+
+
+.one img {
+  max-width: 30px;
+  max-height: 30px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .one {
+    display: none;
+    white-space: nowrap;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  .one {
+    padding-right: 40px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .one {
+    padding-right: 200px;
+  }
+}
+
+
+
+@media screen and (min-width: 1050px) {
+  .one {
+    padding-right: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .one {
+    padding-right: 400px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .one {
+    padding-right: 600px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .one {
+    padding-right: 700px;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .one {
+    padding-right: 800px;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .one {
+    padding-right: 900px;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .one {
+    padding-right: 1000px;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .one {
+    padding-right: 1100px;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .one {
+    padding-right: 1200px;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .one {
+    padding-right: 1300px;
+    white-space: nowrap;
+  }
+}
+
+
+/* Columns */
+
+#content{
+  background-color: white;
+}
+
+#column-sx{
+    float:left;
+    width:15%;
+    background: #6D2E46;
+    margin-top: 0px;
+    height: 2200px;
+    border: 10px outset pink;
+}
+
+
+#column-dx{
+    float:right;
+    width:15%;
+    background: #6D2E46;
+    margin-top: 0px;
+    height: 2200px;
+    border: 10px outset pink;
+}
+
+
+
+#footer{
+    clear:both;
+    background-color: #048A81;
+    color: white;
+    padding: 10px;
+    line-height: -spacing: 5px;
+}
+
+.main {
+  text-decoration: none;
+  padding-top: 0px;
+  width: 1050px;
+  text-align: center;
+  height: 2200px;
+  background-color:;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main img {
+  height: 350px;
+  position: absolute;
+}
+
+.main h1 {
+display: flex;
+position: relative;
+padding-left:200px;
+padding-top: 100px;
+font-family: 'Source Serif Pro', serif;
+text-transform: uppercase;
+letter-spacing: 10px;
+font-size: 50px;
+flex-wrap: nowrap;
+}
+
+.main h2 {
+  font-family: 'Source Serif Pro', serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 25px;
+  padding: 20px;
+}
+.main iframe {
+  display: inline-block;
+  float:right;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
+
+.wrapper2 {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+     background-color: ;
+}
+ .wrapper2 > * {
+	 margin: 5px;
+     background-color: ;
+}
+ .media {
+	 width: 300px;
+	 height: 170px;
+	 overflow: hidden;
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .media img {
+	 max-width: 100%;
+	 height: auto;
+}
+ .layer {
+	 opacity: 0;
+	 position: absolute;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 width: 10px;
+	 height: 90%;
+	 background: #fff;
+	 color: #151e3f;
+	 transition: all 0.9s ease;
+}
+ .layer p {
+	 transition: all 0.9s ease;
+	 transform: scale(0.1);
+}
+ p {
+	 font-family: 'Inconsolata', monospace;
+	 text-align: center;
+	 font-size: 15px;
+	 letter-spacing: 1px;
+}
+ .media:hover, .layer {
+	 opacity: 0.8;
+	 width: 90%;
+	 transition: all 0.5s ease;
+}
+ .media:hover, .layer p {
+	 transform: scale(1);
+	 transition: all 0.9s ease;
+}
+ @media (max-width: 800px) {
+	 body {
+		 transform: scale(0.6);
+	}
+}
+ @media (max-width: 600px) {
+	 .wrapper2 {
+		 display: block;
+	}
+	 .wrapper2 > * {
+		 margin: 10px;
+	}
+}
+
+.esports h1 {
+  padding-left: 380px;
+  flex-wrap: nowrap;
+
+}
+.esportsiframe {
+  padding-left: 50px;
+}
+.tweet {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 50px;
+  display: inline-block;
+  width: 20%;
+  float: left;
+}
+
+.resume h1 {
+  padding-left: 400px;
+  flex-wrap: nowrap;
+}
+
+.resume iframe {
+  width: 500px;
+  height: 500px;
+  padding-right: 240px;
+  padding-bottom: 200px;
+  border: none;
+  padding-top: 0;
+
+}
+
+.wrapper3 {
+  background-color: #fadadd;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+  margin: 30px;
+  margin-right: 0px;
+  border: 3px solid black
+}
+
+.wrapper4 {
+  height: 800px;
+  background-color: #FDEFB2;
+  padding-top: 0;
+  margin-bottom: 200px;
+  margin: 30px;
+  margin-right: 0px;
+  border: 3px solid black;
+}
+
+.wrapper5 {
+  background-color: #fadadd;
+  height: 800px;
+  padding-right: 30px;
+  padding-top: 0px;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 0px;
+  border: 3px solid black
+}
+
+
+.wrapper5 h1 {
+ padding-right: 50px;
+ padding-left: 130px;
+}
+.quest {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.quest iframe {
+  padding-bottom: 0px;
+}
+.wrapper6 {
+  background-color: #FDEFB2;
+  height: 700px;
+  padding-right: 30px;
+  padding-top: 0px;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 0px;
+  border: 3px solid black
+}
+
+
+.company {
+  width: 40%;
+}
+
+.company img {
+  width: %;
+  height: 400px;
+
+}
+
+.wrapper6 h1 {
+  padding-top: 5px;
+  padding-left: 150px;
+}
+.wrapper6 img {
+  padding-right: 200px;
+}
+
+.wrapper6 h2 {
+  padding: 0px;
+  padding-left: 230px;
+}
+
+.physics img {
+  padding-left: 130px;
+  padding-top: 60px;
+}
+table, th, td {
+  border: 2px solid grey;
+}
+
+table {
+  width: 95%;
+  height: 500px;
+  margin-top: 50px;
+  margin-left:40px;
+  font-weight: bold;
+  background-color: #fadadd}
+
+  td:nth-child(n) {
+    background-color: white;
+  }
+  blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  text-align: left;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.quest p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.store iframe {
+  width: 500px;
+  height: 450px;
+  padding-right: 200px;
+  border: none;
+}
